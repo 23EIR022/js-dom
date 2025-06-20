@@ -16,9 +16,9 @@ newObject.display();
   console.log("Hello JS!");
   console.warn("This is a warning");
   console.error("Something went wrong");
-  console.table([{name: "alice"}, {name:"bob"}]);
+  console.table([{name:"alice"},{name:"bob"}]);
   console.time("loop");
-  for (let i=0;i<1000000;i++){ }
+  for (let i=0;i<100000;i++){ }
   console.timeEnd("loop");
 
   // eval() function - don't use in live projects
