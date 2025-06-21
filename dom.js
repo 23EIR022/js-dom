@@ -9,4 +9,4 @@ const hiButton=document.querySelector(".js-button");
 // event listeners
 hiButton.addEventListener("click",() => {
     console.log("Hi");
-});
+}); 
